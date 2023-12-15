@@ -5,185 +5,197 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>My Watched List</title>
     <link rel="stylesheet" href="style.css" />
-    <script src="watchedList.js"></script>
   </head>
   <body>
+    <!-- ------------------------------ nav --------------------------------- -->
     <nav>
+      <button onclick="search()" type="submit">Search</button>
       <h1>My Watched List</h1>
     </nav>
+    <!-- ------------------------------ movies --------------------------------- -->
     <div class="container">
 
-      <div class="eachMovies">
+      <div class="eachMovies" id="The Super Mario Bros. Movie">
         <figure>
           <img src="media/The_Super_Mario_Bros._Movie_poster.jpg" alt="poster"/>
           <figcaption>The Super Mario Bros. Movie</figcaption>
         </figure>
       </div>
 
-      <div class="eachMovies">
+      <div class="eachMovies" id="Spider-Man: Across the Spider-Verse">
         <figure>
           <img src="media/Spider-Man-_Across_the_Spider-Verse_poster.jpg" alt="poster"/>
           <figcaption>Spider-Man: Across the Spider-Verse</figcaption>
         </figure>
       </div>
 
-      <div class="eachMovies">
+      <div class="eachMovies" id="Guardians of the Galaxy Vol. 3">
         <figure>
           <img src="media/Guardians_of_the_Galaxy_Vol._3_poster.jpg" alt="poster"/>
           <figcaption>Guardians of the Galaxy Vol. 3</figcaption>
         </figure>
       </div>
 
-      <div class="eachMovies">
+      <div class="eachMovies" id="Oppenheimer">
         <figure>
           <img src="media/Oppenheimer_(film).jpg" alt="poster"/>
           <figcaption>Oppenheimer</figcaption>
         </figure>
       </div>
 
-      <div class="eachMovies">
+      <div class="eachMovies" id="The Little Mermaid">
         <figure>
           <img src="media/The_Little_Mermaid_(2023_film).png" alt="poster"/>
           <figcaption>The Little Mermaid</figcaption>
         </figure>
       </div>
 
-      <div class="eachMovies">
+      <div class="eachMovies" id="Avatar: The Way of Water">
         <figure>
           <img src="media/Avatar_The_Way_of_Water_poster.jpg" alt="poster"/>
           <figcaption>Avatar: The Way of Water</figcaption>
         </figure>
       </div>
 
-      <div class="eachMovies">
+      <div class="eachMovies" id="Ant-Man and the Wasp: Quantumania">
         <figure>
           <img src="media/Ant-Man_and_the_Wasp_Quantumania_poster.jpg" alt="poster"/>
           <figcaption>Ant-Man and the Wasp: Quantumania</figcaption>
         </figure>
       </div>
 
-      <div class="eachMovies">
+      <div class="eachMovies" id="John Wick: Chapter 4">
         <figure>
           <img src="media/John_Wick_-_Chapter_4_promotional_poster.jpg" alt="poster"/>
           <figcaption>John Wick: Chapter 4</figcaption>
         </figure>
       </div>
 
-      <div class="eachMovies">
+      <div class="eachMovies" id="Sound of Freedom">
         <figure>
           <img src="media/The_Sound_of_Freedom_Poster.jpg" alt="poster"/>
           <figcaption>Sound of Freedom</figcaption>
         </figure>
       </div>
 
-      <div class="eachMovies">
+      <div class="eachMovies" id="Indiana Jones and the Dial of Destiny">
         <figure>
           <img src="media/Indiana_Jones_and_the_Dial_of_Destiny_theatrical_poster.jpg" alt="poster"/>
           <figcaption>Indiana Jones and the Dial of Destiny</figcaption>
         </figure>
       </div>
 
-      <div class="eachMovies">
+      <div class="eachMovies" id="Mission: Impossible - Dead Reckoning Part One">
         <figure>
           <img src="media/Mission-_Impossible_–_Dead_Reckoning_Part_One_poster.jpg" alt="poster"/>
           <figcaption>Mission: Impossible - Dead Reckoning Part One</figcaption>
         </figure>
       </div>
 
-      <div class="eachMovies">
+      <div class="eachMovies" id="Transformers: Rise of the Beasts">
         <figure>
           <img src="media/Transformers-_Rise_of_the_Beasts.jpg" alt="poster"/>
           <figcaption>Transformers: Rise of the Beasts</figcaption>
         </figure>
       </div>
 
-      <div class="eachMovies">
+      <div class="eachMovies" id="Creed III">
         <figure>
           <img src="media/Creed_III_poster.png" alt="poster"/>
           <figcaption>Creed III</figcaption>
         </figure>
       </div>
 
-      <div class="eachMovies">
+      <div class="eachMovies" id="Elemental">
         <figure>
           <img src="media/Elemental_final_poster.jpg" alt="poster"/>
           <figcaption>Elemental</figcaption>
         </figure>
       </div>
 
-      <div class="eachMovies">
+      <div class="eachMovies" id="Fast X">
         <figure>
-          <img src="media/Elemental_final_poster.jpg" alt="poster"/>
+          <img src="media/Fast_X_poster.jpg" alt="poster"/>
           <figcaption>Fast X</figcaption>
         </figure>
       </div>
 
-      <div class="eachMovies">
+      <div class="eachMovies" id="Puss in Boots: The Last Wish">
         <figure>
           <img src="media/Puss_in_Boots_The_Last_Wish_poster.jpg" alt="poster"/>
           <figcaption>Puss in Boots: The Last Wish</figcaption>
         </figure>
       </div>
 
-      <div class="eachMovies">
+      <div class="eachMovies" id="Teenage Mutant Ninja Turtles: Mutant Mayhem">
         <figure>
           <img src="media/Teenage_Mutant_Ninja_Turtles_-_Mutant_Mayhem.jpg" alt="poster"/>
           <figcaption>Teenage Mutant Ninja Turtles: Mutant Mayhem</figcaption>
         </figure>
       </div>
 
-      <div class="eachMovies">
+      <div class="eachMovies" id="Scream VI">
         <figure>
           <img src="media/Scream_VI_poster.jpg" alt="poster"/>
           <figcaption>Scream VI</figcaption>
         </figure>
       </div>
 
-      <div class="eachMovies">
+      <div class="eachMovies" id="The Flash">
         <figure>
           <img src="media/The_Flash_(film)_poster.jpg" alt="poster"/>
           <figcaption>The Flash</figcaption>
         </figure>
       </div>
 
-      <div class="eachMovies">
+      <div class="eachMovies" id="M3GAN">
         <figure>
           <img src="media/M3GAN_Poster.jpeg" alt="poster"/>
           <figcaption>M3GAN</figcaption>
         </figure>
       </div>
 
-      <div class="eachMovies">
+      <div class="eachMovies" id="Dungeons & Dragons: Honor Among Thieves">
         <figure>
           <img src="media/Theatrical_poster_for_Dungeons_and_Dragons,_Honor_Among_Thieves.jpg" alt="poster"/>
           <figcaption>Dungeons & Dragons: Honor Among Thieves</figcaption>
         </figure>
       </div>
 
-      <div class="eachMovies">
+      <div class="eachMovies" id="The Equalizer 3">
         <figure>
           <img src="media/The_Equalizer_3_poster.jpg" alt="poster"/>
           <figcaption>The Equalizer 3</figcaption>
         </figure>
       </div>
 
-      <div class="eachMovies">
+      <div class="eachMovies" id="The Nun II">
         <figure>
           <img src="media/The_Nun_II_(2023).jpg" alt="poster"/>
           <figcaption>The Nun II</figcaption>
         </figure>
       </div>
 
-      <div class="eachMovies">
+      <div class="eachMovies" id="Five Nights at Freddy's">
         <figure>
           <img src="media/Five_Nights_At_Freddy's_poster.jpeg" alt="poster"/>
           <figcaption>Five Nights at Freddy's</figcaption>
         </figure>
       </div>
 
+      <div class="eachMovies" id="Meg 2: The Trench">
+        <figure>
+          <img src="media/Meg_2-_The_Trench_film_cover.jpg" alt="poster"/>
+          <figcaption>Meg 2: The Trench</figcaption>
+        </figure>
+      </div>
+
     </div>
+    <!-- ------------------------------ footer --------------------------------- -->
     <footer>
-        <h3>Total: 24</h3>
+        <h3>Total: 25</h3>
     </footer>
+
+    <script src="watchedList.js"></script>
   </body>
 </html>
