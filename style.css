@@ -1,7 +1,23 @@
 body {
     margin: 0;
     padding: 0;
+    background-color: rgb(206, 206, 206);
 }
+
+button {
+    position: fixed;
+    top: 25px;
+    left: 25px;
+}
+
+#searchBox{
+    position: fixed;
+    top: 25px;
+    left: 85px;
+    width: 250px;
+    text-align: center;
+}
+
 nav, footer {
     background-color: black;
     color: aliceblue;
@@ -11,7 +27,6 @@ nav, footer {
 }
 
 .container {
-    background-color: rgb(206, 206, 206);
     position: absolute;
     display: flex;
     flex-wrap: wrap;
